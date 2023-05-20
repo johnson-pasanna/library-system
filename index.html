@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Library System</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+      <ul>
+        <li class="webname">Library System</li>
+        <li><a href="#books">Books</a></li>
+        <li><a href="#register">Register</a></li>
+      </ul>
+    </nav>
+
+    <!-- Table of Books -->
+    <table id="books">
+      <thead>
+        <tr>
+          <th>Book ID</th>
+          <th>Title</th>
+          <th>Author</th>
+          <th>Genre</th>
+          <th>Availability</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>
+            The Shining
+            <table class="nested-table">
+              <tr>
+                <td>Publication Date</td>
+                <td>January 28, 1977</td>
+              </tr>
+              <tr>
+                <td>Page Count</td>
+                <td>447</td>
+              </tr>
+              <tr>
+                <td>ISBN</td>
+                <td>978-0385121675</td>
+              </tr>
+            </table>
+          </td>
+          <td>Stephen King</td>
+          <td>Horror</td>
+          <td>Available</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>
+            The Haunting of Hill House
+            <table class="nested-table">
+              <tr>
+                <td>October 16, 1959</td>
+                <td>July 2022</td>
+              </tr>
+              <tr>
+                <td>Page Count</td>
+                <td>246</td>
+              </tr>
+              <tr>
+                <td>ISBN</td>
+                <td>978-0143039983</td>
+              </tr>
+            </table>
+          </td>
+          <td>Shirley Jackson</td>
+          <td>Horror</td>
+          <td>Unavailable</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>
+            Pet Sematary
+            <table class="nested-table">
+              <tr>
+                <td>Publication Date</td>
+                <td>November 14, 1983</td>
+              </tr>
+              <tr>
+                <td>Page Count</td>
+                <td>416</td>
+              </tr>
+              <tr>
+                <td>ISBN</td>
+                <td>978-1501156700</td>
+              </tr>
+            </table>
+          </td>
+          <td>Stephen King</td>
+          <td>Horror</td>
+          <td>Available</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>
+            The Graveyard Apartment
+            <table class="nested-table">
+              <tr>
+                <td>Publication Date</td>
+                <td>1986 (English translation: 2016)</td>
+              </tr>
+              <tr>
+                <td>Page Count</td>
+                <td>325</td>
+              </tr>
+              <tr>
+                <td>ISBN</td>
+                <td>978-0-553-41852-4</td>
+              </tr>
+            </table>
+          </td>
+          <td>Mariko Koike</td>
+          <td>Horror</td>
+          <td>Unavailable</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>
+            <table class="nested-table">
+              <tr>
+                <td>Publication Date</td>
+                <td>1979</td>
+              </tr>
+              <tr>
+                <td>Page Count</td>
+                <td>506</td>
+              </tr>
+              <tr>
+                <td>ISBN</td>
+                <td>978-0-987654-90-1</td>
+              </tr>
+            </table>
+          </td>
+          <td>Peter Straub</td>
+          <td>Horror</td>
+          <td>Available</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Registration Form -->
+    <div id="register">
+      <form id="register-form">
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" required />
+
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required />
+
+        <label for="date-of-birth">Date of Birth:</label>
+        <input type="date" id="date-of-birth" required />
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" min="5" max="100" required />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" required />
+
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" required />
+
+        <input type="submit" value="Register" />
+      </form>
+    </div>
+
+    <!-- Add more content or sections if needed -->
+  </body>
+</html>
