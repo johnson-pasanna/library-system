@@ -47,6 +47,7 @@ table {
   box-shadow: 0 0 5px rgba(250, 0, 0, 0.3);
   color: #f95b5b;
   font-weight: bolder;
+  border-radius: 6px;
 }
 
 #books th {
@@ -79,8 +80,11 @@ th {
   width: 50%;
   margin: 20px auto;
   padding: 20px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-  background-color: #f2f2f2;
+  box-shadow: 0 0 5px rgba(250, 0, 0, 0.3);
+  background-color: #f6eeee;
+  border-radius: 6px;
+  color: #f95b5b;
+  font-weight: bolder;
 }
 
 #register-form label {
@@ -96,13 +100,16 @@ th {
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(250, 0, 0, 0.3);
+  border-radius: 6px;
 }
 
 #register-form input[type="submit"] {
   padding: 10px 20px;
-  background-color: #f2f2f2;
+  background-color: #f95b5b;
   border: none;
-  border-radius: 4px;
+  border-radius: 6px;
   cursor: pointer;
+  color: white;
+  font-weight: bolder;
 }
