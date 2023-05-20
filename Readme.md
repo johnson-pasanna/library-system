@@ -39,9 +39,3 @@ Your submission should include a github repository and a deployed link, the gith
 
 Relevant Links
 UI Inspiration: https://drive.google.com/file/d/1dzSOyRKrNAVHFIq_4md1Onl1H6YxV8tU/view
-
-Questions:
-How do I know in interview if while clicking on registration form should I create new webspage or like in this project should create under the same first page.
-
-Learned:
-Div tag why should add inside the section , what purpose it server , cons and pros.
